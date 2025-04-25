@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# 🍽️ Food Vista - Food Product Explorer
 
-## Project info
+A modern web application to explore food products using the [OpenFoodFacts API](https://world.openfoodfacts.org/). Search, filter, and browse product details with a clean and responsive UI.
 
-**URL**: https://lovable.dev/projects/6abb14ce-da32-4345-8f63-6ed1575625dc
+## 🚀 Live Demo
 
-## How can I edit this code?
+[Click here to view the live demo](https://food-vista-ten.vercel.app/)
 
-There are several ways of editing your application.
+## 📸 Screenshots
 
-**Use Lovable**
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![Desktop](https://food-vista-ten.vercel.app/) | ![Mobile](https://food-vista-ten.vercel.app/) |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6abb14ce-da32-4345-8f63-6ed1575625dc) and start prompting.
+## 🔍 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🔎 **Search by product name**
+- 📦 **Search by barcode**
+- 🗂️ **Filter by category**
+- ↕️ **Sort by product name & nutrition grade**
+- 📄 **Product detail view with nutrition info & labels**
+- 📱 **Responsive design for mobile and desktop**
+- 🌗 **Optional dark mode support (if added)**
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend Framework**: React (with functional components & hooks)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **API Client**: Axios
+- **Data Source**: OpenFoodFacts API
+- **Deployment**: Vercel
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Architecture Highlights
 
-Follow these steps:
+- Component-based design for better maintainability
+- Clean separation of concerns (API, UI, logic)
+- Optional: State management with Redux/Context API
+- Optimized for performance and user experience
+- Responsive and accessible design patterns
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📁 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+food-vista/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── services/      # API services
+│   ├── types/         # TypeScript type definitions
+│   ├── utils/         # Utility functions
+│   ├── hooks/         # Custom React hooks
+│   └── styles/        # Global styles and Tailwind config
+├── public/            # Static assets
+└── package.json       # Project dependencies
 ```
 
-**Edit a file directly in GitHub**
+## ⚙️ Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
 
-**Use GitHub Codespaces**
+- Node.js (v14 or higher)
+- npm or yarn
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Installation
 
-## What technologies are used for this project?
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/food-vista.git
+cd food-vista
+```
 
-This project is built with:
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## How can I deploy this project?
+4. Open your browser and navigate to `http://localhost:3000`
 
-Simply open [Lovable](https://lovable.dev/projects/6abb14ce-da32-4345-8f63-6ed1575625dc) and click on Share -> Publish.
+## 📝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🙏 Acknowledgments
+
+- [OpenFoodFacts](https://world.openfoodfacts.org/) for providing the API
+- All contributors who have helped improve this project
